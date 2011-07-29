@@ -1,0 +1,116 @@
+#+TITLE: Трудности перевода OpenCPN на русский
+
+* Введение
+
+  Здесь описаны все термины и сложности возникшие во время перевода
+  OpenCPN.
+
+  В качестве примера для такого документа была выбрана статья
+  [[http://www.google.com/url?sa=t&source=web&cd=3&ved=0CCQQFjAC&url=http%3A%2F%2Fshimansky.biz%2Fdl%2Fpdf%2Fzrazhevskaya_translation_difficulties.pdf&rct=j&q=%22zrazhevskaya_translation_difficulties.pdf%22&ei=iTwwTsnOFMWaOsWviX8&usg=AFQjCNESeVePHMddcL_oQfCvaNDUACQ_KQ&cad=rja][Т.А.Зражевская - ТРУДНОСТИ ПЕРЕВОДА с английского языка на русский
+  (на материале газетных статей)]].
+
+* Общепринятые сокращения
+
+** Degree (Deg.) - Градус (Град)
+
+   Сокрашенная форма единицы измерения градусы.
+
+   Относительно элементов программы. Например:
+   #+BEGIN_EXAMPLE
+   internal algorithm - штатный алгоритм
+   #+END_EXAMPLE
+
+
+** kts, Knots - узлы, узл.
+* Програмное обеспечение
+
+  В это разделе собран материал касающийся перевода програмной части
+  (сообщения об ошибках, плагины, итп).
+
+** Internal - штатный
+
+** Plugin - подключаемый модуль
+
+*** Plugin Manager - управление модулями, управление подключаемыми модулями :fuzzy:
+**** TODO Надо выяснить нет ли двойственности в термине "управление модулями".
+
+** Line Index - Линейный индекс                                       :fuzzy:
+
+   Термин используется применительно к файлам карт.
+
+   Значение термино не ясно, толи линейный индекс, толи строчный
+   индекс.
+
+* Навигация
+
+** Типы судов
+
+*** Bulk carrier maritime - Морской балкер
+
+** Georeference, georef - привязка к координатам, привязка
+
+** MMSI, Maritime Mobile Service Identity - позывной                  :fuzzy:
+
+   Как я понял из [[http://en.wikipedia.org/wiki/Maritime_Mobile_Service_Identity][википедии]] это не совсем позывной, а некий 9 значный
+   идентификатор который используется для идентификаци судна а также
+   для звонков и телексов на судно.
+
+** SOG, SoG, Speed Over Ground - 
+
+** COG, Cource over ground - ПУ, Путевой угол
+
+** Nautical Mile (NM) - морская миля                                  :fuzzy:
+
+   Сокращенную форму оставил без перевода, тк не нашел сокрашения для
+   этого термина в википедии.
+
+** Automatic Identification System (AIS) - Aвтоматическая идентификационная система (АИС)
+
+** Cuilt                                                              :fuzzy:
+
+   Не нашел подходяшего перевода. Смысл что-то типа одеяло из кусочков
+   карт. Перевел как: Add chart to quilt - Добавление карты.
+
+** Knot (unit), Kt, Kts - узел
+
+   Сокрашения не нашел. Формы: узел, узлы, узлов.
+
+** Beacon - маяк
+
+   Однако нашел места где больше модходит бакен или буй (например
+   "Beacon, Primary Channel Port hand").
+
+** Port hand - левый борт
+
+** Starboard hand - правый борт
+
+** Isolated Danger Mark - бакен
+
+   По картинке это бакен, а вот что значит приставка isolated не
+   понятно.
+
+   В датеральной системе используются для обозначения берегов. В
+   кардинальной системе используются для обозначения опасности.
+
+** [[http://en.wikipedia.org/wiki/Lateral_buoy][Lateral mark]] - [[][]]
+
+*** stand-on vessel and give-way vessel
+
+    Термины обозначающие приоритетность 
+
+    Give-way (vessel) – Where two vessels are approaching one another so
+    as to involve a risk of collision, this is the vessel which is
+    directed to keep out of the way of the other.
+
+    Stand-on (vessel) – A vessel directed to keep her course and speed
+    where two vessels are approaching one another so as to involve a
+    risk of collision.
+
+* GPS
+
+** datum - датум
+
+* Остальное
+
+* Источники информации и ссылки
+  * [[http://en.wikipedia.org/wiki/Glossary_of_nautical_terms][Glossary of nautical terms]] ([[http://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B5_%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B][Морские термины]])
