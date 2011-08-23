@@ -10,7 +10,6 @@
   (на материале газетных статей)]].
 
 * Общепринятые сокращения
-
 ** Degree (Deg.) - Градус (Град)
 
    Сокрашенная форма единицы измерения градусы.
@@ -19,7 +18,6 @@
    #+BEGIN_EXAMPLE
    internal algorithm - штатный алгоритм
    #+END_EXAMPLE
-
 
 ** kts, Knots - узлы, узл.
 * Програмное обеспечение
@@ -42,20 +40,17 @@
    индекс.
 
 * Навигация
-
 ** Типы судов
-
 *** Bulk carrier maritime - Морской балкер
 
 ** Georeference, georef - привязка к координатам, привязка
-
 ** MMSI, Maritime Mobile Service Identity - позывной                  :fuzzy:
 
    Как я понял из [[http://en.wikipedia.org/wiki/Maritime_Mobile_Service_Identity][википедии]] это не совсем позывной, а некий 9 значный
    идентификатор который используется для идентификаци судна а также
    для звонков и телексов на судно.
 
-** SOG, SoG, Speed Over Ground - 
+** SOG, SoG, Speed Over Ground - Путевая скорость, ПС
 
 ** COG, Cource over ground - ПУ, Путевой угол
 
@@ -66,10 +61,13 @@
 
 ** Automatic Identification System (AIS) - Aвтоматическая идентификационная система (АИС)
 
-** Cuilt                                                              :fuzzy:
+** Quilting (OpenCPN) - состыковка карт, режим состыковки карт        :fuzzy:
 
    Не нашел подходяшего перевода. Смысл что-то типа одеяло из кусочков
    карт. Перевел как: Add chart to quilt - Добавление карты.
+
+   В мануале: Chart quilting is a way to display parts of several
+   charts together on the screen, redrawn to the same scale.
 
 ** Knot (unit), Kt, Kts - узел
 
@@ -105,6 +103,19 @@
     Stand-on (vessel) – A vessel directed to keep her course and speed
     where two vessels are approaching one another so as to involve a
     risk of collision.
+
+
+** Safe Water - безопасные воды
+
+** Course up, head up, north up - поворот карты по курсу, по движению, на север
+
+** Anchor watch -  якорная вахта
+
+** Установить маркер MOB - ???
+
+   Рисует спасательный круг в текущей позиции.
+
+** Track - запись маршрута
 
 * GPS
 
