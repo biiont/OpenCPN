@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Version 2.4 build 611\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: 2011-06-12 11:03+0100\n"
 "Last-Translator: Anders Arnell <anders.arnell@bredband.net>\n"
 "Language-Team: AB Torsk & Bäver <N/A>\n"
@@ -179,11 +179,19 @@ msgstr "COG: Ej tillgänglig"
 msgid " ChartFile:  "
 msgstr " Sjökortsfil:  "
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 msgid " Datum:  "
 msgstr " Datum:  "
 #
 msgid " Depth Units:  "
 msgstr " Djupenhet:  "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 msgid " ID:  "
 msgstr " ID:  "
@@ -1352,6 +1360,14 @@ msgstr "Ej manöverfärdig"
 msgid "Number of radar rings shown"
 msgstr "Antal radarringar som visas"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 msgid "OK"
 msgstr "OK"
 #
@@ -1794,6 +1810,10 @@ msgstr ""
 #
 msgid "SOG: ----- kts  "
 msgstr ""
+#
+#, fuzzy
+msgid "SOG: ----- kts  COG: ----- Deg"
+msgstr " COG: 000°"
 #
 msgid "Safe Water"
 msgstr "Säkert vatten"
@@ -2444,8 +2464,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "&Close"
 #~ msgstr "Avsluta"
+#
 #
 #
 #
@@ -2458,8 +2480,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "&Delete All Tracks..."
 #~ msgstr "Ra&dera alla Spår"
+#
 #
 #
 #
@@ -2472,14 +2496,17 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "(Active Track)"
 #~ msgstr "(Aktivt Spår)"
 #
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "libgps kan inte laddas"
+#
 #
 #
 #
@@ -2492,8 +2519,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "CM93 Offset On"
 #~ msgstr "CM93-korrektion på"
+#
 #
 #
 #
@@ -2506,8 +2535,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "CM93 Offset Tool....."
 #~ msgstr "Ställ in CM93-korrektion....."
+#
 #
 #
 #
@@ -2520,8 +2551,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "CallSign:  "
 #~ msgstr "Anropssignal:  "
+#
 #
 #
 #
@@ -2534,6 +2567,7 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Cell Y Offset"
 #~ msgstr "Cell Y-korrektion"
 #
@@ -2541,8 +2575,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Chart file corrupt.. disabling this chart \n"
 #~ msgstr "Sjökortet går ej att läsa, kortet inaktiveras \n"
+#
 #
 #
 #
@@ -2559,8 +2595,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Class:     "
 #~ msgstr "Klass:     "
+#
 #
 #
 #
@@ -2577,8 +2615,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Current Velocity, Kts."
 #~ msgstr "Strömhastighet, Knop."
+#
 #
 #
 #
@@ -2591,8 +2631,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "ETA:                  Unknown"
 #~ msgstr "ETA:                  Okänd"
+#
 #
 #
 #
@@ -2605,8 +2647,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Export...."
 #~ msgstr "Exportera...."
+#
 #
 #
 #
@@ -2618,14 +2662,17 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "libgps kan inte laddas"
 #
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so.19"
 #~ msgstr "libgps kan inte laddas"
+#
 #
 #
 #
@@ -2638,8 +2685,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "GRIB"
 #~ msgstr "GRIB"
+#
 #
 #
 #
@@ -2652,8 +2701,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "GRIB Display Control"
 #~ msgstr "Inställning för väder"
+#
 #
 #
 #
@@ -2666,8 +2717,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Import new layer"
 #~ msgstr "Importera nytt lager"
+#
 #
 #
 #
@@ -2680,8 +2733,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "OpenCPN S57 SENC File Load"
 #~ msgstr "OpenCPN S57 SENC läser fil"
+#
 #
 #
 #
@@ -2694,8 +2749,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Please Zoom or Scale Out to view suppressed HTSGW GRIB"
 #~ msgstr "Öka skalan eller zooma ut för att visa signifikant våghöjd"
+#
 #
 #
 #
@@ -2708,8 +2765,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Please Zoom or Scale Out to view suppressed SEATEMP GRIB"
 #~ msgstr "Öka skalan eller zooma ut för att visa GRIB vattentemperatur"
+#
 #
 #
 #
@@ -2722,8 +2781,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Pressure, mBar"
 #~ msgstr "Barometertryck, mBar"
+#
 #
 #
 #
@@ -2740,8 +2801,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Route Manager..."
 #~ msgstr "Rutthantering..."
+#
 #
 #
 #
@@ -2754,8 +2817,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Select GRIB Directory"
 #~ msgstr "Välj mapp för väderfiler"
+#
 #
 #
 #
@@ -2768,8 +2833,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "ShipName:  "
 #~ msgstr "Båtnamn:   "
+#
 #
 #
 #
@@ -2782,8 +2849,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Show GRIB dialog"
 #~ msgstr "Aktivera vädermeny"
+#
 #
 #
 #
@@ -2796,8 +2865,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Significant Wave Height, m"
 #~ msgstr "Signifikant våghöjd, m"
+#
 #
 #
 #
@@ -2814,8 +2885,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Toggle Listing"
 #~ msgstr "Växla visning"
+#
 #
 #
 #
@@ -2828,8 +2901,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Use High Definition Graphics"
 #~ msgstr "Använd högupplöst grafik"
+#
 #
 #
 #
@@ -2842,6 +2917,7 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Wind Direction"
 #~ msgstr "Vindriktning"
 #
@@ -2849,8 +2925,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Wind Speed, Kts."
 #~ msgstr "Vindhastighet, knop"
+#
 #
 #
 #

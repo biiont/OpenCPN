@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 2.1.0b604\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: 2010-12-16 20:53+0200\n"
 "Last-Translator: ΓΙΑΝΝΗΣ <ogog1@otenet.gr>\n"
 "Language-Team: \n"
@@ -217,6 +217,10 @@ msgstr "Μη διαθέσιμος Χάρτης"
 msgid " ChartFile:  "
 msgstr "Αρχείο Χάρτη:  "
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 # 
 msgid " Datum:  "
 msgstr "Ημερομηνία:  "
@@ -224,6 +228,10 @@ msgstr "Ημερομηνία:  "
 # 
 msgid " Depth Units:  "
 msgstr "Μονάδες Βάθους:  "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 # 
 msgid " ID:  "
@@ -1782,6 +1790,14 @@ msgstr ""
 msgid "Number of radar rings shown"
 msgstr "Αριθμός Δακτυλίων Ραντάρ για εμφάνιση"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 # 
 msgid "OK"
 msgstr "ΟΚ"
@@ -2374,6 +2390,9 @@ msgid "SOG: %5.2f kts  "
 msgstr ""
 #
 msgid "SOG: ----- kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  COG: ----- Deg"
 msgstr ""
 #
 # 
@@ -3234,9 +3253,11 @@ msgstr ""
 #
 #
 #
+#
 # 
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Προσπάθεια να φορτωθεί το libgps.so"
+#
 #
 #
 #
@@ -3270,6 +3291,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3279,6 +3301,7 @@ msgstr ""
 # 
 #~ msgid "CM93 Offset On"
 #~ msgstr "Αντιμετάθεση CM93 ανοικτή"
+#
 #
 #
 #
@@ -3312,6 +3335,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3321,6 +3345,7 @@ msgstr ""
 # 
 #~ msgid "CM93 Offset Tool....."
 #~ msgstr "Εργαλείο Αντιμετάθεσης CM93..."
+#
 #
 #
 #
@@ -3354,6 +3379,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3374,6 +3400,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3382,6 +3409,7 @@ msgstr ""
 #, fuzzy
 #~ msgid "Cell Y Offset"
 #~ msgstr "Θέσε αντιστάθμιση CM93"
+#
 #
 #
 #
@@ -3415,6 +3443,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3424,9 +3453,11 @@ msgstr ""
 #
 #
 #
+#
 # 
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Αποτυχία στη φόρτωση του libgps.so"
+#
 #
 #
 #
@@ -3444,10 +3475,12 @@ msgstr ""
 #
 #
 #
+#
 # 
 #, fuzzy
 #~ msgid "Import new layer"
 #~ msgstr "Εισαγωγή Αρχείου GPX"
+#
 #
 #
 #
@@ -3478,9 +3511,11 @@ msgstr ""
 #
 #
 #
+#
 # 
 #~ msgid "OpenCPN S57 SENC File Load"
 #~ msgstr "OpenCPN φορτώνει Αρχείο S57 SENC"
+#
 #
 #
 #
@@ -3511,6 +3546,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3518,6 +3554,7 @@ msgstr ""
 # 
 #~ msgid "ShipName:  "
 #~ msgstr "Όνομα Σκάφους: "
+#
 #
 #
 #
@@ -3542,10 +3579,12 @@ msgstr ""
 #
 #
 #
+#
 # 
 #, fuzzy
 #~ msgid "Toggle Listing"
 #~ msgstr "Αρχή/Παύση ιχνηλάτησης"
+#
 #
 #
 #

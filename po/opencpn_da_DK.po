@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Open CPN 1.3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Ole E. Mikkelsen <oem@live.dk>\n"
 "Language-Team: \n"
@@ -217,6 +217,10 @@ msgstr "Ingen kort er tilgængelige"
 msgid " ChartFile:  "
 msgstr " Kortfil:  "
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 # 
 msgid " Datum:  "
 msgstr ""
@@ -225,6 +229,10 @@ msgstr ""
 # 
 msgid " Depth Units:  "
 msgstr "Enhed for havdybde:"
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 # 
 msgid " ID:  "
@@ -1970,6 +1978,14 @@ msgstr ""
 msgid "Number of radar rings shown"
 msgstr "Antal afstandscirkler"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 # 
 # 
 msgid "OK"
@@ -2611,6 +2627,9 @@ msgid "SOG: %5.2f kts  "
 msgstr ""
 #
 msgid "SOG: ----- kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  COG: ----- Deg"
 msgstr ""
 #
 # 
@@ -3590,6 +3609,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3602,6 +3622,7 @@ msgstr ""
 # 
 #~ msgid "&Close"
 #~ msgstr "&Luk"
+#
 #
 #
 #
@@ -3643,6 +3664,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3660,6 +3682,7 @@ msgstr ""
 # 
 #~ msgid "&Delete All Tracks..."
 #~ msgstr "&Slet alle spor..."
+#
 #
 #
 #
@@ -3693,10 +3716,12 @@ msgstr ""
 #
 #
 #
+#
 # 
 #, fuzzy
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Ikke muligt at indlæse 'libgps.so.19'"
+#
 #
 #
 #
@@ -3735,6 +3760,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3745,6 +3771,7 @@ msgstr ""
 # 
 #~ msgid "Chart file corrupt.. disabling this chart \n"
 #~ msgstr "Kortfilen er ikke valid..Kortet bliver inaktiveret \n"
+#
 #
 #
 #
@@ -3790,6 +3817,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3807,6 +3835,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Klasse:    A\n"
 #~ "\n"
+#
 #
 #
 #
@@ -3843,12 +3872,14 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 # 
 #~ msgid "Exit OpenCPN"
 #~ msgstr "Afslut OpenCPN"
+#
 #
 #
 #
@@ -3861,10 +3892,12 @@ msgstr ""
 #
 #
 #
+#
 # 
 #, fuzzy
 #~ msgid "Failed to load libgps.so.19"
 #~ msgstr "Ikke muligt at indlæse 'libgps.so.19'"
+#
 #
 #
 #
@@ -3901,6 +3934,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3913,6 +3947,7 @@ msgstr ""
 # 
 #~ msgid "GRIB Data"
 #~ msgstr "Meteorologi(GRIB)"
+#
 #
 #
 #
@@ -3949,6 +3984,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3961,6 +3997,7 @@ msgstr ""
 # 
 #~ msgid "GRIB File Directory"
 #~ msgstr "Meteorologi(GRIB) folder"
+#
 #
 #
 #
@@ -3988,6 +4025,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -3996,6 +4034,7 @@ msgstr ""
 # 
 #~ msgid "MarinersStandard"
 #~ msgstr "Maritim standard"
+#
 #
 #
 #
@@ -4032,6 +4071,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4044,6 +4084,7 @@ msgstr ""
 # 
 #~ msgid "Please Zoom or Scale Out to view suppressed HTSGW GRIB"
 #~ msgstr "Zoom eller skaler ud for at se skjult HTSGW GRIB"
+#
 #
 #
 #
@@ -4080,6 +4121,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4104,6 +4146,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4114,6 +4157,7 @@ msgstr ""
 # 
 #~ msgid "PlugIn Name"
 #~ msgstr "Tilføjelse, navn"
+#
 #
 #
 #
@@ -4149,6 +4193,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 #~ msgid ""
 #~ "Recent Report Period:   %3d Sec.\n"
@@ -4156,6 +4201,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Nyeste data interval:   %3d Sek.\n"
 #~ "\n"
+#
 #
 #
 #
@@ -4192,6 +4238,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4216,6 +4263,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4224,6 +4272,7 @@ msgstr ""
 # 
 #~ msgid "ShipName:  "
 #~ msgstr "Fartøjsnavn:"
+#
 #
 #
 #
@@ -4260,6 +4309,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4278,6 +4328,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 #, fuzzy
 #~ msgid ""
@@ -4286,6 +4337,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Str.:                 %dm x %dm x ---m\n"
 #~ "\n"
+#
 #
 #
 #
@@ -4311,11 +4363,13 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 #, fuzzy
 #~ msgid "Toggle Names"
 #~ msgstr "Rute"
+#
 #
 #
 #
@@ -4352,6 +4406,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4364,6 +4419,7 @@ msgstr ""
 # 
 #~ msgid "WARNING:  QuickScat GRIB data is %d hours old."
 #~ msgstr "ADVARSEL:  QuickScat GRIB data er %d timer gammel."
+#
 #
 #
 #

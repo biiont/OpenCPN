@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 2.1.622\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: 2011-01-09 19:39+0200\n"
 "Last-Translator: Peep Prants <peep@prants.ee>\n"
 "Language-Team: OpenCPN ET <LL@li.org>\n"
@@ -272,6 +272,10 @@ msgstr "Kaart pole saadaval"
 msgid " ChartFile:  "
 msgstr "Kaardi fail:"
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 # 
 # 
 # 
@@ -283,6 +287,10 @@ msgstr "Kuupäev:"
 # 
 msgid " Depth Units:  "
 msgstr "Sügavuse ühik:  "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 # 
 # 
@@ -2343,6 +2351,14 @@ msgstr ""
 msgid "Number of radar rings shown"
 msgstr "Mitu radari ringi näidatakse"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 # 
 # 
 # 
@@ -3096,6 +3112,9 @@ msgid "SOG: %5.2f kts  "
 msgstr ""
 #
 msgid "SOG: ----- kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  COG: ----- Deg"
 msgstr ""
 #
 # 
@@ -4232,11 +4251,13 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Ei suuda laadida libgps.so"
+#
 #
 #
 #
@@ -4269,6 +4290,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4277,6 +4299,7 @@ msgstr ""
 # 
 #~ msgid "CM93 Offset On"
 #~ msgstr "CM93 nihe sees"
+#
 #
 #
 #
@@ -4309,6 +4332,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4317,6 +4341,7 @@ msgstr ""
 # 
 #~ msgid "CM93 Offset Tool....."
 #~ msgstr "CM93 nihke tööriist..."
+#
 #
 #
 #
@@ -4349,6 +4374,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4369,6 +4395,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4377,6 +4404,7 @@ msgstr ""
 #, fuzzy
 #~ msgid "Cell Y Offset"
 #~ msgstr "Sea CM93 nihe"
+#
 #
 #
 #
@@ -4411,6 +4439,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4422,11 +4451,13 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Ei suuda laadida libgps.so"
+#
 #
 #
 #
@@ -4446,12 +4477,14 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 #, fuzzy
 #~ msgid "Import new layer"
 #~ msgstr "Impordi GPX fail"
+#
 #
 #
 #
@@ -4484,9 +4517,11 @@ msgstr ""
 #
 #
 #
+#
 # 
 #~ msgid "OpenCPN S57 SENC File Load"
 #~ msgstr "OpenCPN S57 SENC fail laadimine"
+#
 #
 #
 #
@@ -4519,6 +4554,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4528,6 +4564,7 @@ msgstr ""
 # 
 #~ msgid "ShipName:  "
 #~ msgstr "Laeva nimi:"
+#
 #
 #
 #
@@ -4554,12 +4591,14 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 #, fuzzy
 #~ msgid "Toggle Listing"
 #~ msgstr "Lülita jälgimisele"
+#
 #
 #
 #

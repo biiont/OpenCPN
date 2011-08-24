@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Marco Certelli <marco_certelli@yahoo.it>\n"
 "Language-Team: \n"
@@ -262,6 +262,10 @@ msgstr " COG : Non disponibile"
 msgid " ChartFile:  "
 msgstr " File:  "
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 #
 #
 #
@@ -273,6 +277,10 @@ msgstr " Datum:  "
 #
 msgid " Depth Units:  "
 msgstr " Profondità in: "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 #
 #
@@ -2291,6 +2299,14 @@ msgstr "Che Non Governa"
 msgid "Number of radar rings shown"
 msgstr "Numero di cerchi da mostrare"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 #
 #
 #
@@ -3019,6 +3035,10 @@ msgstr ""
 #
 msgid "SOG: ----- kts  "
 msgstr ""
+#
+#, fuzzy
+msgid "SOG: ----- kts  COG: ----- Deg"
+msgstr " COG: 000 °"
 #
 #
 msgid "Safe Water"
@@ -4120,8 +4140,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "&Close"
 #~ msgstr "&Chiudi"
+#
 #
 #
 #
@@ -4172,8 +4194,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "&Delete All Tracks..."
 #~ msgstr "Elimina tutte le &Tracce..."
+#
 #
 #
 #
@@ -4206,6 +4230,7 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "(Active Track)"
 #~ msgstr "(Traccia attiva)"
 #
@@ -4214,8 +4239,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Tentativo di caricamento libgps.so"
+#
 #
 #
 #
@@ -4244,8 +4271,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "CM93 Offset On"
 #~ msgstr "CM93 Applica Offset"
+#
 #
 #
 #
@@ -4274,8 +4303,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "CM93 Offset Tool....."
 #~ msgstr "CM93 Strumento Offset..."
+#
 #
 #
 #
@@ -4302,9 +4333,11 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Cell X Offset"
 #~ msgstr "Configura Offset CM93"
+#
 #
 #
 #
@@ -4334,8 +4367,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Chart file corrupt.. disabling this chart \n"
 #~ msgstr "Il file della Carta è corrotto e verrà ignorato \n"
+#
 #
 #
 #
@@ -4387,6 +4422,7 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Class:     "
 #~ msgstr ""
@@ -4398,8 +4434,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Caricamento libgps.so fallito"
+#
 #
 #
 #

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 2.4.628\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
-"PO-Revision-Date: 2011-08-24 14:16+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
+"PO-Revision-Date: 2011-08-24 15:02+0400\n"
 "Last-Translator: Victor Romanov <biiont@ixtent.net>\n"
 "Language-Team: Eugene Polyan <epolyan@gmail.com>, Victor Romanov "
 "<biiont@ixtent.net>\n"
@@ -54,12 +54,16 @@ msgstr ""
 msgid ""
 "\n"
 "      Version "
-msgstr "\n      Версия "
+msgstr ""
+"\n"
+"      Версия "
 #
 msgid ""
 "\n"
 "    Logfile location: "
-msgstr "\n    Файл логирования: "
+msgstr ""
+"\n"
+"    Файл логирования: "
 #
 #
 #
@@ -303,6 +307,10 @@ msgstr "ПУ: недоступен"
 msgid " ChartFile:  "
 msgstr " Файл карты:  "
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr " DR шир. %10.5f долг. %10.5f"
+#
 #
 #
 #
@@ -316,6 +324,10 @@ msgstr " Датум:  "
 #
 msgid " Depth Units:  "
 msgstr " Единицы измерения глубины:  "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr " GPS шир. %10.5f долг. %10.5f ПУ %10.5f ПС %6.2f"
 #
 #
 #
@@ -1024,7 +1036,7 @@ msgstr "Направление"
 #
 #, c-format
 msgid "Bearing:                %03d Deg.\n"
-msgstr "Направление:              %5.0f Град.\n"
+msgstr "Направление:              %03d Град.\n"
 #
 #
 #
@@ -1099,7 +1111,7 @@ msgstr "Детализация CM93"
 #
 #, c-format
 msgid "COG: %5.0f Deg"
-msgstr "ПУ: %03d Град."
+msgstr "ПУ: %5.0f Град."
 #
 msgid "COG: ----- Deg"
 msgstr "ПУ: ----- Град."
@@ -2713,6 +2725,14 @@ msgstr ""
 msgid "Number of radar rings shown"
 msgstr "Количество отображаемых колец радара"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr "Выкл: шир. %10.5f долг. %10.5f ПУ %10.5f ПС %6.2f"
+#
 #
 #
 #
@@ -3541,6 +3561,9 @@ msgstr "ПС: %5.2f узлов  "
 #
 msgid "SOG: ----- kts  "
 msgstr "ПУ: ----- узлов  "
+#
+msgid "SOG: ----- kts  COG: ----- Deg"
+msgstr "ПС: ----- узл.  ПУ: ----- град."
 #
 #
 msgid "Safe Water"
@@ -4771,9 +4794,11 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "&Close"
 #~ msgstr "Закрыть"
+#
 #
 #
 #
@@ -4839,9 +4864,11 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "&Delete All Tracks..."
 #~ msgstr "Удалить все маршруты"
+#
 #
 #
 #
@@ -4904,8 +4931,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "CallSign:  "
 #~ msgstr "Позывной:  "
+#
 #
 #
 #
@@ -4958,11 +4987,13 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Class:     "
 #~ msgstr ""
 #~ "Класс:     A\n"
 #~ "\n"
+#
 #
 #
 #
@@ -5039,8 +5070,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Delete All Routes..."
 #~ msgstr "Удалить все маршруты"
+#
 #
 #
 #
@@ -5089,8 +5122,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Exit OpenCPN"
 #~ msgstr "Выйти"
+#
 #
 #
 #
@@ -5163,6 +5198,7 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "GPX"
 #~ msgstr "GPX"
 #
@@ -5189,8 +5225,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "GRIB"
 #~ msgstr "GRIB"
+#
 #
 #
 #
@@ -5245,8 +5283,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "GRIB Display Control"
 #~ msgstr "Настройки отображения информации GRIB"
+#
 #
 #
 #
@@ -5295,8 +5335,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "MarinersStandard"
 #~ msgstr "Морской стандарт"
+#
 #
 #
 #
@@ -5351,8 +5393,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Please Zoom or Scale Out to view suppressed HTSGW GRIB"
 #~ msgstr "Уменьшите масштаб для просмотра скртых меток HTSGW GRIB"
+#
 #
 #
 #
@@ -5408,9 +5452,11 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Please Zoom or Scale Out to view suppressed SEATEMP GRIB"
 #~ msgstr "Уменьшите масштаб для просмотра скртых меток HTSGW GRIB"
+#
 #
 #
 #
@@ -5454,6 +5500,7 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid ""
 #~ "Recent Report Period:   %3d Sec.\n"
@@ -5461,6 +5508,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Период последних отчётов:     %3d Сек.\n"
 #~ "\n"
+#
 #
 #
 #
@@ -5521,6 +5569,7 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Send Route To GPS..."
 #~ msgstr "Отправить в устройство GPS"
@@ -5544,8 +5593,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "ShipName:  "
 #~ msgstr "Название корабля:  "
+#
 #
 #
 #
@@ -5610,8 +5661,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Show GRIB dialog"
 #~ msgstr "Показать диалог GRIB"
+#
 #
 #
 #
@@ -5664,8 +5717,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Significant Wave Height, m"
 #~ msgstr "Характерная высота волны, м"
+#
 #
 #
 #
@@ -5695,9 +5750,11 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Toggle Listing"
 #~ msgstr "Включить слежение"
+#
 #
 #
 #

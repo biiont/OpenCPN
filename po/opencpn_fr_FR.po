@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Gilletarom <gilletarom@netpratique.fr>\n"
 "Language-Team: \n"
@@ -211,6 +211,10 @@ msgstr " COG : Indisponible"
 msgid " ChartFile:  "
 msgstr " Fichier de carte : "
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 #
 msgid " Datum:  "
 msgstr " Système géodésique : "
@@ -218,6 +222,10 @@ msgstr " Système géodésique : "
 #
 msgid " Depth Units:  "
 msgstr " Unité de profondeur  : "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 #
 msgid " ID:  "
@@ -1640,6 +1648,14 @@ msgstr "Non maitre de sa manoeuvre"
 msgid "Number of radar rings shown"
 msgstr "Nombre de cercles radar affichés"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 #
 msgid "OK"
 msgstr "OK"
@@ -2164,6 +2180,10 @@ msgstr ""
 #
 msgid "SOG: ----- kts  "
 msgstr ""
+#
+#, fuzzy
+msgid "SOG: ----- kts  COG: ----- Deg"
+msgstr " COG : 000 Deg."
 #
 msgid "Safe Water"
 msgstr "Eau libre"
@@ -2946,14 +2966,17 @@ msgstr "WGS Y"
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Tentative de chargement du module libgps.so\""
 #
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Echec du chargement du module libgps.so"
+#
 #
 #
 #

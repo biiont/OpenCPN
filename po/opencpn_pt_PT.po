@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 1.3.6 (Pt01)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: 2010-02-05 16:06+0100\n"
 "Last-Translator: as <as400big@gmail.com>\n"
 "Language-Team: Minhota <zemaria@zemaria.biz>\n"
@@ -287,6 +287,10 @@ msgstr "Não há Carta Disponível"
 msgid " ChartFile:  "
 msgstr ""
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 # 
 # 
 # 
@@ -301,6 +305,10 @@ msgstr ""
 #, fuzzy
 msgid " Depth Units:  "
 msgstr "Unid. Sondas"
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 # 
 # 
@@ -2722,6 +2730,14 @@ msgstr ""
 msgid "Number of radar rings shown"
 msgstr "Numero de Círculos de radar mostrados"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 # 
 # 
 # 
@@ -3557,6 +3573,9 @@ msgid "SOG: %5.2f kts  "
 msgstr ""
 #
 msgid "SOG: ----- kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  COG: ----- Deg"
 msgstr ""
 #
 # 
@@ -4795,6 +4814,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4812,6 +4832,7 @@ msgstr ""
 #, fuzzy
 #~ msgid "&Close"
 #~ msgstr "Fechar"
+#
 #
 #
 #
@@ -4858,6 +4879,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4880,6 +4902,7 @@ msgstr ""
 #, fuzzy
 #~ msgid "&Delete All Tracks..."
 #~ msgstr "Apagar todas as Rotas..."
+#
 #
 #
 #
@@ -4926,6 +4949,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4956,6 +4980,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4968,6 +4993,7 @@ msgstr ""
 # 
 #~ msgid "Chart file corrupt.. disabling this chart \n"
 #~ msgstr "Ficheiro de carta corrompido.. a desactivar carta \n"
+#
 #
 #
 #
@@ -5013,6 +5039,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5038,6 +5065,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Classe:     B\n"
 #~ "\n"
+#
 #
 #
 #
@@ -5091,6 +5119,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5121,6 +5150,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5129,6 +5159,7 @@ msgstr ""
 # 
 #~ msgid "Exit OpenCPN"
 #~ msgstr "Sair do OpenCPN"
+#
 #
 #
 #
@@ -5182,6 +5213,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5215,6 +5247,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5229,6 +5262,7 @@ msgstr ""
 # 
 #~ msgid "GRIB"
 #~ msgstr "GRIB"
+#
 #
 #
 #
@@ -5269,6 +5303,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5285,6 +5320,7 @@ msgstr ""
 # 
 #~ msgid "GRIB Display Control"
 #~ msgstr "Controlo Visualização GRIB"
+#
 #
 #
 #
@@ -5325,6 +5361,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5335,6 +5372,7 @@ msgstr ""
 # 
 #~ msgid "MarinersStandard"
 #~ msgstr "Standard Marítimo"
+#
 #
 #
 #
@@ -5375,6 +5413,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5391,6 +5430,7 @@ msgstr ""
 # 
 #~ msgid "Please Zoom or Scale Out to view suppressed HTSGW GRIB"
 #~ msgstr "Ajuste Zoom ou Escala para ver HTSGW GRIB escondido"
+#
 #
 #
 #
@@ -5432,6 +5472,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5449,6 +5490,7 @@ msgstr ""
 #, fuzzy
 #~ msgid "Please Zoom or Scale Out to view suppressed SEATEMP GRIB"
 #~ msgstr "Ajuste Zoom ou Escala para ver HTSGW GRIB escondido"
+#
 #
 #
 #
@@ -5488,6 +5530,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5499,6 +5542,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Período das aquisições mais recentes:     %3d Sec.\n"
 #~ "\n"
+#
 #
 #
 #
@@ -5528,6 +5572,7 @@ msgstr ""
 #, fuzzy
 #~ msgid "Select GRIB Directory"
 #~ msgstr "Pasta de Ficheiros GRIB"
+#
 #
 #
 #
@@ -5574,6 +5619,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5584,6 +5630,7 @@ msgstr ""
 # 
 #~ msgid "ShipName:  "
 #~ msgstr "Nome da Embarcação:"
+#
 #
 #
 #
@@ -5629,6 +5676,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5650,6 +5698,7 @@ msgstr ""
 # 
 #~ msgid "Show GRIB dialog"
 #~ msgstr "Mostrar Janela GRIB"
+#
 #
 #
 #
@@ -5688,6 +5737,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5704,6 +5754,7 @@ msgstr ""
 # 
 #~ msgid "Significant Wave Height, m"
 #~ msgstr "Altura de Vaga Significativa, m"
+#
 #
 #
 #
@@ -5731,6 +5782,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5738,6 +5790,7 @@ msgstr ""
 #, fuzzy
 #~ msgid "Toggle Listing"
 #~ msgstr "Comutar Rastro"
+#
 #
 #
 #
@@ -5767,6 +5820,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5781,6 +5835,7 @@ msgstr ""
 # 
 #~ msgid "Use High Definition Graphics"
 #~ msgstr "Usar Gráficos Alta Definição"
+#
 #
 #
 #
@@ -5821,6 +5876,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -5837,6 +5893,7 @@ msgstr ""
 # 
 #~ msgid "Wind Direction"
 #~ msgstr "Direcção Vento"
+#
 #
 #
 #

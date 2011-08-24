@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 2.4.628\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 15:01+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,6 +189,16 @@ msgid ""
 "Please select chart folders in ToolBox->Charts."
 msgstr ""
 
+#: src/chart1.cpp:2810
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+
+#: src/chart1.cpp:2816
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+
 #: src/chart1.cpp:3218 src/chcanv.cpp:8065 src/chcanv.cpp:8509 src/ais.cpp:4328
 msgid "AIS Target Query"
 msgstr ""
@@ -279,6 +289,20 @@ msgstr ""
 
 #: src/chart1.cpp:5159
 msgid "Please restart OpenCPN to activate new language selection."
+msgstr ""
+
+#: src/chart1.cpp:5822
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+
+#: src/chart1.cpp:5828
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+
+#: src/chart1.cpp:5862
+msgid "SOG: ----- kts  COG: ----- Deg"
 msgstr ""
 
 #: src/chart1.cpp:5874 src/chcanv.cpp:3956 src/chcanv.cpp:6821

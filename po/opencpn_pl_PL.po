@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 2.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: 2011-06-01 12:24+0100\n"
 "Last-Translator: Piotr Carlson <pjotrc@interia.pl>\n"
 "Language-Team: Wladyslaw Stolle <stollew@poczta.onet.pl>\n"
@@ -211,6 +211,10 @@ msgstr "Brak dostępnej mapy"
 msgid " ChartFile:  "
 msgstr " Mapa z pliku:"
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 #
 msgid " Datum:  "
 msgstr " Układ odniesienia:"
@@ -218,6 +222,10 @@ msgstr " Układ odniesienia:"
 #
 msgid " Depth Units:  "
 msgstr "Jednostki głębokości mapy: "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 #
 msgid " ID:  "
@@ -1749,6 +1757,14 @@ msgstr "Nie odpowiada za ruchy"
 msgid "Number of radar rings shown"
 msgstr "Ilość pokazywanych kręgów radaru"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 #
 msgid "OK"
 msgstr "OK"
@@ -2323,6 +2339,9 @@ msgid "SOG: %5.2f kts  "
 msgstr ""
 #
 msgid "SOG: ----- kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  COG: ----- Deg"
 msgstr ""
 #
 #
@@ -3171,6 +3190,7 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "&Toggle Chart"
 #~ msgstr "Wł./Wył. na mapie"
 #
@@ -3178,8 +3198,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Próba załadowania libgps.so"
+#
 #
 #
 #
@@ -3220,8 +3242,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "CM93 Offset On"
 #~ msgstr "Przesunięcie CM93 włączone"
+#
 #
 #
 #
@@ -3262,8 +3286,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "CM93 Offset Tool....."
 #~ msgstr "Narzędzie przesuwania CM93..."
+#
 #
 #
 #
@@ -3302,9 +3328,11 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Cell X Offset"
 #~ msgstr "Ustaw przesunięcie CM93"
+#
 #
 #
 #
@@ -3330,8 +3358,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Błąd ładowania libgps.so"
+#
 #
 #
 #
@@ -3350,8 +3380,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Import new layer"
 #~ msgstr "Importuj nową warstwę"
+#
 #
 #
 #
@@ -3376,8 +3408,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Toggle Listing"
 #~ msgstr "Włącz/wyłącz listę"
+#
 #
 #
 #

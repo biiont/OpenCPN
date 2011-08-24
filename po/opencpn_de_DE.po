@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenCPN 2.4.606\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: 2011-06-15 00:01+0100\n"
 "Last-Translator: Gunther Pilz <gunther.pilz@gmail.com>\n"
 "Language-Team: Gunther Pilz <service@opencpn.de>\n"
@@ -185,11 +185,19 @@ msgstr "COG: nicht verfügbar"
 msgid " ChartFile:  "
 msgstr " Seekarten-Datei:  "
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 msgid " Datum:  "
 msgstr " Datum:            "
 #
 msgid " Depth Units:  "
 msgstr " Tiefeneinheiten:  "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 msgid " ID:  "
 msgstr " ID:               "
@@ -1370,6 +1378,14 @@ msgstr "manövrierunfähig"
 msgid "Number of radar rings shown"
 msgstr "Anzahl anzuzeigender Radar-Ringe"
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 msgid "OK"
 msgstr "OK"
 #
@@ -1815,6 +1831,10 @@ msgstr ""
 #
 msgid "SOG: ----- kts  "
 msgstr ""
+#
+#, fuzzy
+msgid "SOG: ----- kts  COG: ----- Deg"
+msgstr "COG: 000 Deg."
 #
 msgid "Safe Water"
 msgstr "Ansteuer-/ Fahrwassermitteltonne"
@@ -2467,8 +2487,10 @@ msgstr "WGS Y Offset"
 #
 #
 #
+#
 #~ msgid "&Close"
 #~ msgstr "Schließen"
+#
 #
 #
 #
@@ -2479,8 +2501,10 @@ msgstr "WGS Y Offset"
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Versuche libgps.so zu laden"
+#
 #
 #
 #
@@ -2491,8 +2515,10 @@ msgstr "WGS Y Offset"
 #
 #
 #
+#
 #~ msgid "Chart file corrupt.. disabling this chart \n"
 #~ msgstr "Kartendatei fehlerhaft ... deaktiviere diese Karte \n"
+#
 #
 #
 #
@@ -2506,8 +2532,10 @@ msgstr "WGS Y Offset"
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Laden von libgps.so fehlgeschlagen"
+#
 #
 #
 #
@@ -2518,8 +2546,10 @@ msgstr "WGS Y Offset"
 #
 #
 #
+#
 #~ msgid "Import new layer"
 #~ msgstr "Neuen Layer importieren"
+#
 #
 #
 #
@@ -2534,6 +2564,7 @@ msgstr "WGS Y Offset"
 #
 #
 #
+#
 #~ msgid ""
 #~ "Size:                 %dm x %dm \n"
 #~ "\n"
@@ -2544,8 +2575,10 @@ msgstr "WGS Y Offset"
 #
 #
 #
+#
 #~ msgid "Toggle Listing"
 #~ msgstr "Auflistung umsch."
+#
 #
 #
 #

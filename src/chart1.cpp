@@ -2807,13 +2807,13 @@ int MyApp::OnExit()
       if (bGPSValid)
       {
             wxString data;
-            data.Printf(_T("OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"), gLat, gLon, gCog, gSog);
+            data.Printf(_("OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"), gLat, gLon, gCog, gSog);
             navmsg += data;
       }
       else
       {
             wxString data;
-            data.Printf(_T("OFF: Lat %10.5f Lon %10.5f"), gLat, gLon);
+            data.Printf(_("OFF: Lat %10.5f Lon %10.5f"), gLat, gLon);
             navmsg += data;
       }
       wxLogMessage(navmsg);
@@ -5819,13 +5819,13 @@ void MyFrame::OnFrameTimer1(wxTimerEvent& event)
             if (bGPSValid)
             {
                   wxString data;
-                  data.Printf(_T(" GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"), gLat, gLon, gCog, gSog);
+                  data.Printf(_(" GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"), gLat, gLon, gCog, gSog);
                   navmsg += data;
             }
             else
             {
                   wxString data;
-                  data.Printf(_T(" DR Lat %10.5f Lon %10.5f"), gLat, gLon);
+                  data.Printf(_(" DR Lat %10.5f Lon %10.5f"), gLat, gLon);
                   navmsg += data;
             }
             wxLogMessage(navmsg);
@@ -5859,7 +5859,7 @@ void MyFrame::OnFrameTimer1(wxTimerEvent& event)
 //      Update the Toolbar Status windows and lower status bar the first time watchdog times out
       if((gGPS_Watchdog == 0) || (gSAT_Watchdog == 0))
       {
-          wxString sogcog(_T("SOG: ----- kts  COG: ----- Deg"));
+          wxString sogcog(_("SOG: ----- kts  COG: ----- Deg"));
           if(GetStatusBar())
                 SetStatusText ( sogcog, STAT_FIELD_SOGCOG );
 

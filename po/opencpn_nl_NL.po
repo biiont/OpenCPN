@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenCPN 2.4.620 beta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-24 13:41+0400\n"
+"POT-Creation-Date: 2011-08-24 14:54+0400\n"
 "PO-Revision-Date: 2011-06-20 21:11+0100\n"
 "Last-Translator: NAV <rider2@kpnmail.nl>\n"
 "Language-Team:  <rider2@kpnmail.nl>\n"
@@ -247,6 +247,10 @@ msgstr "COG: niet beschikbaar"
 msgid " ChartFile:  "
 msgstr " Kaartbestand: "
 #
+#, c-format
+msgid " DR Lat %10.5f Lon %10.5f"
+msgstr ""
+#
 #
 #
 msgid " Datum:  "
@@ -256,6 +260,10 @@ msgstr " Horizontale datum: "
 #
 msgid " Depth Units:  "
 msgstr " Dieptes in: "
+#
+#, c-format
+msgid " GPS Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
 #
 #
 #
@@ -1939,6 +1947,14 @@ msgstr "onmanoeuvreerbaar"
 msgid "Number of radar rings shown"
 msgstr "   Aantal te tonen cirkels: "
 #
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f"
+msgstr ""
+#
+#, c-format
+msgid "OFF: Lat %10.5f Lon %10.5f COG %10.5f SOG %6.2f"
+msgstr ""
+#
 #
 #
 msgid "OK"
@@ -2551,6 +2567,10 @@ msgstr ""
 #
 msgid "SOG: ----- kts  "
 msgstr ""
+#
+#, fuzzy
+msgid "SOG: ----- kts  COG: ----- Deg"
+msgstr "COG: 000°"
 #
 msgid "Safe Water"
 msgstr "veilig vaarwater"
@@ -3473,6 +3493,7 @@ msgstr "WGS Y offset"
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Probeer libgps.so te laden"
 #
@@ -3481,8 +3502,10 @@ msgstr "WGS Y offset"
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Kon libgps.so niet laden."
+#
 #
 #
 #
