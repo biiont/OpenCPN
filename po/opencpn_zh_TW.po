@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenCPN 2.4.620\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-28 10:04-0400\n"
+"POT-Creation-Date: 2011-08-24 13:41+0400\n"
 "PO-Revision-Date: 2011-06-24 09:03+0800\n"
 "Last-Translator: Eddie Pai <eddie.pai@gmail.com>\n"
 "Language-Team: Eddie Pai <eddie.pai@gmail.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,6 +41,16 @@ msgid ""
 msgstr ""
 "\n"
 "         OpenCPN...一個精巧的開放原始碼海圖標繪/導航軟體"
+#
+msgid ""
+"\n"
+"      Version "
+msgstr ""
+#
+msgid ""
+"\n"
+"    Logfile location: "
+msgstr ""
 #
 #
 msgid ""
@@ -179,6 +190,9 @@ msgstr " %H 小時  %M 分鐘"
 #
 msgid " - "
 msgstr " - "
+#
+msgid " Build "
+msgstr ""
 #
 #, c-format
 msgid " COG: %03d Deg."
@@ -667,6 +681,14 @@ msgstr "CM93 Offsets"
 #
 msgid "CM93 Zoom Detail"
 msgstr "CM93 縮放詳細度"
+#
+#, fuzzy, c-format
+msgid "COG: %5.0f Deg"
+msgstr " COG: %03d 度."
+#
+#, fuzzy
+msgid "COG: ----- Deg"
+msgstr " COG: 000 度."
 #
 #
 msgid "CPA"
@@ -2294,6 +2316,13 @@ msgstr "搜救船"
 msgid "SOG COG"
 msgstr "SOG COG"
 #
+#, c-format
+msgid "SOG: %5.2f kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  "
+msgstr ""
+#
 #
 msgid "Safe Water"
 msgstr "安全水域"
@@ -3135,8 +3164,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "&Close"
 #~ msgstr "關閉(&C)"
+#
 #
 #
 #
@@ -3161,8 +3192,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "&Delete All Tracks..."
 #~ msgstr "刪除所有航跡(&D)..."
+#
 #
 #
 #
@@ -3186,14 +3219,17 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "(Active Track)"
 #~ msgstr "(使用中航跡)"
 #
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "嘗試載入 libgps.so"
+#
 #
 #
 #
@@ -3218,8 +3254,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "CM93 Offset On"
 #~ msgstr "CM93 Offset On"
+#
 #
 #
 #
@@ -3244,8 +3282,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "CM93 Offset Tool....."
 #~ msgstr "CM93 Offset Tool....."
+#
 #
 #
 #
@@ -3270,8 +3310,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "CallSign:  "
 #~ msgstr "CallSign:  "
+#
 #
 #
 #
@@ -3297,6 +3339,7 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Cell Y Offset"
 #~ msgstr "設定 CM93 Offset"
@@ -3304,8 +3347,10 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "無法載入 libgps.so"
+#
 #
 #
 #

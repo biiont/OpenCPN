@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 2.4.423\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-28 10:04-0400\n"
+"POT-Creation-Date: 2011-08-24 13:41+0400\n"
 "PO-Revision-Date: 2011-05-30 21:07+0100\n"
 "Last-Translator: Szabolcs SZIGETI <szigi@ik.bme.hu>\n"
 "Language-Team: SZIGETI Szabolcs <szigi@ik.bme.hu>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,6 +33,16 @@ msgid ""
 msgstr ""
 "\n"
 "         OpenCPN...Egy kis aranyos nyílt forráskódú chartplotter/navigátor"
+#
+msgid ""
+"\n"
+"      Version "
+msgstr ""
+#
+msgid ""
+"\n"
+"    Logfile location: "
+msgstr ""
 #
 msgid ""
 "\n"
@@ -144,6 +155,9 @@ msgid " %H Hours  %M Minutes"
 msgstr "%H óra %M perc"
 #
 msgid " - "
+msgstr ""
+#
+msgid " Build "
 msgstr ""
 #
 #, c-format
@@ -516,6 +530,13 @@ msgstr "CM93 eltolás"
 #
 msgid "CM93 Zoom Detail"
 msgstr "CM93 nagyítás részletessége"
+#
+#, c-format
+msgid "COG: %5.0f Deg"
+msgstr ""
+#
+msgid "COG: ----- Deg"
+msgstr ""
 #
 msgid "CPA"
 msgstr ""
@@ -1756,6 +1777,13 @@ msgstr ""
 msgid "SOG COG"
 msgstr ""
 #
+#, c-format
+msgid "SOG: %5.2f kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  "
+msgstr ""
+#
 msgid "Safe Water"
 msgstr "Biztosnágos hajóút"
 #
@@ -2411,8 +2439,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "&Toggle Chart"
 #~ msgstr "Térkép kapcsolása"
+#
 #
 #
 #
@@ -2431,8 +2461,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Import new layer"
 #~ msgstr "Új réteg importálása"
+#
 #
 #
 #
@@ -2447,6 +2479,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Utolsó jelentési periódus:   %3d mp.\n"
 #~ "\n"
+#
 #
 #
 #
@@ -2467,8 +2500,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Toggle Listing"
 #~ msgstr "Listázás kapcsolása"
+#
 #
 #
 #

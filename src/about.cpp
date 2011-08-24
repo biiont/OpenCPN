@@ -50,12 +50,12 @@ extern wxBitmap *_img_donate;
 //    Some constants
 
 //Gunther Start
-wxString str_version_start = wxT("\n      Version ");
+wxString str_version_start = _("\n      Version ");
 wxString str_version_major = wxString::Format(wxT("%i"),VERSION_MAJOR);
 wxString str_version_minor = wxString::Format(wxT("%i"),VERSION_MINOR);
 wxString str_version_patch = wxString::Format(wxT("%i"),VERSION_PATCH);
 wxString str_version_date(VERSION_DATE, wxConvUTF8);
-wxString OpenCPNVersion = str_version_start + str_version_major + wxT(".") + str_version_minor + wxT(".") + str_version_patch + wxT(" Build ") + str_version_date;
+wxString OpenCPNVersion = str_version_start + str_version_major + wxT(".") + str_version_minor + wxT(".") + str_version_patch + _(" Build ") + str_version_date;
 //Gunther End
 
 extern wxString        *pHome_Locn;
@@ -79,7 +79,7 @@ char OpenCPNInfo[] = {"\n\n\
 
 char AuthorText[] =
 {
-"   David S Register\n\
+  "   David S Register\n\
       bdbcat@yahoo.com\n\
       OpenCPN Lead Developer\n\n\
     Kathleen Boswell\n\
@@ -284,7 +284,7 @@ void about::Update()
       delete pAboutString;
 
   // Show the user where the log file is going to be
-      wxString log = _T("\n    Logfile location: ");
+      wxString log = _("\n    Logfile location: ");
       log.Append(glog_file);
 
       pAboutTextCtl->WriteText(log);

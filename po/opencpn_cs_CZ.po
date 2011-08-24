@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 2.4.606\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-28 10:04-0400\n"
+"POT-Creation-Date: 2011-08-24 13:41+0400\n"
 "PO-Revision-Date: 2011-06-07 08:44+0100\n"
 "Last-Translator: Pavel Kalian <pavel@kalian.cz>\n"
 "Language-Team: OpenCPN CZ <pavel@kalian.cz>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,6 +44,16 @@ msgid ""
 msgstr ""
 "\n"
 "         OpenCPN...Pěkný malý Open Source Chart Plotter/ Navigator"
+#
+msgid ""
+"\n"
+"      Version "
+msgstr ""
+#
+msgid ""
+"\n"
+"    Logfile location: "
+msgstr ""
 #
 #
 #
@@ -234,6 +245,9 @@ msgstr " %H Hodin  %M Minut"
 #
 msgid " - "
 msgstr " - "
+#
+msgid " Build "
+msgstr ""
 #
 #, c-format
 msgid " COG: %03d Deg."
@@ -905,6 +919,14 @@ msgstr "Posuny  CM93"
 #
 msgid "CM93 Zoom Detail"
 msgstr "Detail přiblížení CM93"
+#
+#, fuzzy, c-format
+msgid "COG: %5.0f Deg"
+msgstr " COG: %03d Stu."
+#
+#, fuzzy
+msgid "COG: ----- Deg"
+msgstr " COG: 000 Stu."
 #
 #
 #
@@ -2995,6 +3017,13 @@ msgstr ""
 msgid "SOG COG"
 msgstr "SOG COG"
 #
+#, c-format
+msgid "SOG: %5.2f kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  "
+msgstr ""
+#
 #
 msgid "Safe Water"
 msgstr "Bezpečná voda"
@@ -4092,6 +4121,7 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "&Toggle Chart"
 #~ msgstr "Přepnou&t mapu"
 #
@@ -4099,8 +4129,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Pokouším se nahrát libgps.so"
+#
 #
 #
 #
@@ -4131,8 +4163,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "CM93 Offset On"
 #~ msgstr "Posun CM93 zap."
+#
 #
 #
 #
@@ -4163,8 +4197,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "CM93 Offset Tool....."
 #~ msgstr "Nástroj Posun CM93...."
+#
 #
 #
 #
@@ -4193,9 +4229,11 @@ msgstr ""
 #
 #
 #
+#
 #, fuzzy
 #~ msgid "Cell X Offset"
 #~ msgstr "Nastav posun CM93"
+#
 #
 #
 #
@@ -4216,6 +4254,7 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Nemohu nahrát libgps.so"
 #
@@ -4223,8 +4262,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so.19"
 #~ msgstr "Nemohu nahrát libgps.so.19"
+#
 #
 #
 #
@@ -4243,8 +4284,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "OpenCPN S57 SENC File Load"
 #~ msgstr "OpenCPN nahrání souboru S57 SENC"
+#
 #
 #
 #
@@ -4268,6 +4311,7 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid ""
 #~ "Size:                 %dm x %dm \n"
 #~ "\n"
@@ -4283,8 +4327,10 @@ msgstr ""
 #
 #
 #
+#
 #~ msgid "Toggle Listing"
 #~ msgstr "Přepni výpis"
+#
 #
 #
 #

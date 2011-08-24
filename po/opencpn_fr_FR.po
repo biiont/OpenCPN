@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-28 10:04-0400\n"
+"POT-Creation-Date: 2011-08-24 13:41+0400\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Gilletarom <gilletarom@netpratique.fr>\n"
 "Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,6 +34,16 @@ msgstr ""
 "\n"
 "       OpenCPN... Logiciel sympa opensource de cartographie marine et d'aide "
 "à la navigation."
+#
+msgid ""
+"\n"
+"      Version "
+msgstr ""
+#
+msgid ""
+"\n"
+"    Logfile location: "
+msgstr ""
 #
 msgid ""
 "\n"
@@ -182,6 +193,9 @@ msgstr " %H heures  %M minutes"
 #
 msgid " - "
 msgstr " - "
+#
+msgid " Build "
+msgstr ""
 #
 #, c-format
 msgid " COG: %03d Deg."
@@ -649,6 +663,14 @@ msgstr "Compensation des CM93"
 #
 msgid "CM93 Zoom Detail"
 msgstr "CM93 : Quantité de détails affichés"
+#
+#, fuzzy, c-format
+msgid "COG: %5.0f Deg"
+msgstr " COG : %03d Deg."
+#
+#, fuzzy
+msgid "COG: ----- Deg"
+msgstr " COG : 000 Deg."
 #
 msgid "CPA"
 msgstr "CPA"
@@ -2136,6 +2158,13 @@ msgstr "Nav. sauv."
 msgid "SOG COG"
 msgstr "SOG / COG  (vitesse/cap fond )"
 #
+#, c-format
+msgid "SOG: %5.2f kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  "
+msgstr ""
+#
 msgid "Safe Water"
 msgstr "Eau libre"
 #
@@ -2916,13 +2945,16 @@ msgstr "WGS Y"
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Tentative de chargement du module libgps.so\""
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Echec du chargement du module libgps.so"
+#
 #
 #
 #

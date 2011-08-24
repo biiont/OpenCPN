@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opencpn 2.1.622\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-28 10:04-0400\n"
+"POT-Creation-Date: 2011-08-24 13:41+0400\n"
 "PO-Revision-Date: 2011-01-09 19:39+0200\n"
 "Last-Translator: Peep Prants <peep@prants.ee>\n"
 "Language-Team: OpenCPN ET <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,6 +43,16 @@ msgid ""
 msgstr ""
 "\n"
 "         OpenCPN...on pisike ja armas vabavara navigeerimisvahend"
+#
+msgid ""
+"\n"
+"      Version "
+msgstr ""
+#
+msgid ""
+"\n"
+"    Logfile location: "
+msgstr ""
 #
 # 
 # 
@@ -237,6 +248,9 @@ msgstr " %H Tundi  %M Minutit"
 # 
 msgid " - "
 msgstr " - "
+#
+msgid " Build "
+msgstr ""
 #
 #, c-format
 msgid " COG: %03d Deg."
@@ -922,6 +936,13 @@ msgstr "CM93 nihked"
 # 
 msgid "CM93 Zoom Detail"
 msgstr "CM93 suurendus"
+#
+#, c-format
+msgid "COG: %5.0f Deg"
+msgstr ""
+#
+msgid "COG: ----- Deg"
+msgstr ""
 #
 # 
 # 
@@ -3070,6 +3091,13 @@ msgstr ""
 msgid "SOG COG"
 msgstr "SOG COG"
 #
+#, c-format
+msgid "SOG: %5.2f kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  "
+msgstr ""
+#
 # 
 msgid "Safe Water"
 msgstr ""
@@ -4203,11 +4231,13 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Ei suuda laadida libgps.so"
+#
 #
 #
 #
@@ -4238,6 +4268,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4246,6 +4277,7 @@ msgstr ""
 # 
 #~ msgid "CM93 Offset On"
 #~ msgstr "CM93 nihe sees"
+#
 #
 #
 #
@@ -4276,6 +4308,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4284,6 +4317,7 @@ msgstr ""
 # 
 #~ msgid "CM93 Offset Tool....."
 #~ msgstr "CM93 nihke tööriist..."
+#
 #
 #
 #
@@ -4314,6 +4348,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4333,6 +4368,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4341,6 +4377,7 @@ msgstr ""
 #, fuzzy
 #~ msgid "Cell Y Offset"
 #~ msgstr "Sea CM93 nihe"
+#
 #
 #
 #
@@ -4373,6 +4410,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4383,11 +4421,13 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Ei suuda laadida libgps.so"
+#
 #
 #
 #
@@ -4405,12 +4445,14 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 #, fuzzy
 #~ msgid "Import new layer"
 #~ msgstr "Impordi GPX fail"
+#
 #
 #
 #
@@ -4441,9 +4483,11 @@ msgstr ""
 #
 #
 #
+#
 # 
 #~ msgid "OpenCPN S57 SENC File Load"
 #~ msgstr "OpenCPN S57 SENC fail laadimine"
+#
 #
 #
 #
@@ -4474,6 +4518,7 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
@@ -4483,6 +4528,7 @@ msgstr ""
 # 
 #~ msgid "ShipName:  "
 #~ msgstr "Laeva nimi:"
+#
 #
 #
 #
@@ -4507,12 +4553,14 @@ msgstr ""
 #
 #
 #
+#
 # 
 # 
 # 
 #, fuzzy
 #~ msgid "Toggle Listing"
 #~ msgstr "Lülita jälgimisele"
+#
 #
 #
 #

@@ -7897,15 +7897,15 @@ void MyFrame::PostProcessNNEA(bool brx_rmc, wxString &sfixtime)
 
             wxString sogcog;
             if(wxIsNaN(gSog))
-                  sogcog.Printf(_T("SOG: ----- kts  "));
+                  sogcog.Printf(_("SOG: ----- kts  "));
             else
-                  sogcog.Printf(_T("SOG: %5.2f kts  "), gSog);
+                  sogcog.Printf(_("SOG: %5.2f kts  "), gSog);
 
             wxString cogs;
             if(wxIsNaN(gCog))
-                  cogs.Printf(_T("COG: ----- Deg"));
+                  cogs.Printf(_("COG: ----- Deg"));
             else
-                  cogs.Printf(_T("COG: %5.0f Deg"), gCog);
+                  cogs.Printf(_("COG: %5.0f Deg"), gCog);
 
             sogcog.Append(cogs);
             SetStatusText ( sogcog, STAT_FIELD_SOGCOG );

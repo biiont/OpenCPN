@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenCPN 2.4.612\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-28 10:04-0400\n"
+"POT-Creation-Date: 2011-08-24 13:41+0400\n"
 "PO-Revision-Date: 2011-06-13 14:01+0100\n"
 "Last-Translator: Frode Lynum <post@kb-h.com>\n"
 "Language-Team: OpenCPN Norge <post@opencpn.kb-h.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,6 +36,16 @@ msgid ""
 msgstr ""
 "\n"
 "         OpenCPN...En enkel og grei åpen-kilde kartplotter/navigator"
+#
+msgid ""
+"\n"
+"      Version "
+msgstr ""
+#
+msgid ""
+"\n"
+"    Logfile location: "
+msgstr ""
 #
 msgid ""
 "\n"
@@ -152,6 +163,9 @@ msgstr " %H Timer  %M Minutter"
 #
 msgid " - "
 msgstr " - "
+#
+msgid " Build "
+msgstr ""
 #
 #, c-format
 msgid " COG: %03d Deg."
@@ -524,6 +538,14 @@ msgstr "CM93 Korrigeringer"
 #
 msgid "CM93 Zoom Detail"
 msgstr "CM93 Zoom detalj"
+#
+#, fuzzy, c-format
+msgid "COG: %5.0f Deg"
+msgstr " COG: %03d Gra."
+#
+#, fuzzy
+msgid "COG: ----- Deg"
+msgstr " COG: 000 Gra."
 #
 msgid "CPA"
 msgstr "CPA"
@@ -1767,6 +1789,13 @@ msgstr "SAR/V"
 msgid "SOG COG"
 msgstr "SOG COG"
 #
+#, c-format
+msgid "SOG: %5.2f kts  "
+msgstr ""
+#
+msgid "SOG: ----- kts  "
+msgstr ""
+#
 msgid "Safe Water"
 msgstr "Trygt farvann"
 #
@@ -2414,13 +2443,16 @@ msgstr "wgsoy"
 #
 #
 #
+#
 #~ msgid "Attempting to load libgps.so"
 #~ msgstr "Forsøker å laste libgps.so"
 #
 #
 #
+#
 #~ msgid "Failed to load libgps.so"
 #~ msgstr "Kunne ikke laste libgps.so"
+#
 #
 #
 #
