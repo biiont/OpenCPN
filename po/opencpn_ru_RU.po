@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: opencpn 2.4.628\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-08-24 14:54+0400\n"
-"PO-Revision-Date: 2011-10-03 12:19+0400\n"
+"PO-Revision-Date: 2011-10-03 13:31+0400\n"
 "Last-Translator: Victor Romanov <biiont@ixtent.net>\n"
 "Language-Team: Eugene Polyan <epolyan@gmail.com>, Victor Romanov "
 "<biiont@ixtent.net>\n"
@@ -4357,7 +4357,7 @@ msgstr ""
 #
 #
 #
-#, fuzzy, c-format
+#, c-format
 msgid "TrueScale: %8.0f             "
 msgstr "Маштаб: %8.0f             "
 #
@@ -4365,7 +4365,7 @@ msgstr "Маштаб: %8.0f             "
 #
 #
 #
-#, fuzzy, c-format
+#, c-format
 msgid "TrueScale: %8.0f  Zoom %4.1fx"
 msgstr "Масштаб: %8.0f  Увеличение: %4.0fx"
 #
